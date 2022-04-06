@@ -1,14 +1,18 @@
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto, sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+}    
+    
 
 ul {
     display: flex;
@@ -19,11 +23,48 @@ ul {
 .one {
     background-color: #1f2937;
     color: #f9faf8;
-}
+}    
 
 .header-logo {
     font-weight: bold;
     font-size: 24px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.hero {
+    display:flex;
+    height: 200px;
+    justify-content: space-around;
+    flex: 1;
+    margin: 50px 0;  
+}
+
+button {
+    background-color: #3883f6;
+    color: #f9faf8;
+    padding: 8px 20px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+} 
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 
