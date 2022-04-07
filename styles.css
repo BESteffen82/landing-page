@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  overflow: scroll;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -42,8 +42,9 @@ ul {
 .hero {
     display:flex;
     height: 250px;
-    margin: 50px 0; 
-    justify-content: space-around;    
+    margin: 20px 0; 
+    justify-content: space-around;
+    padding: 20px    
 }
 
 button {
@@ -78,7 +79,8 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 300px;    
+    padding: 20px;    
 }
 
 .info .header {
@@ -90,7 +92,11 @@ img {
 .info-content {
     display: flex;
     justify-content: space-around;
-}
+    flex: 1;    
+    width: 900px;
+    margin: 10px 0;
+    padding: 20px;    
+}    
 
 .info-image img {
     max-height: 100%;
@@ -102,10 +108,40 @@ img {
 .info-image {
     display: flex;
     flex-direction: column;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    align-items: space-between;
 }
 
+.info-image div {    
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    flex: 1;
+    font-size: 36px;
+    color: #1f2937;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;    
+}
+
+.quote p {
+    font-style: italic;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quote div {
+    font-weight: 700;
+    align-content: flex-end;    
+    margin-left: 600px;
+}
 
 
 
